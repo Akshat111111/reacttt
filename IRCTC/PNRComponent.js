@@ -36,10 +36,10 @@ class PNRComponent extends React.Component {
         const options =
         {
             method: 'GET',
-            // url: 'https://irctc1.p.rapidapi.com/api/v3/getPNRStatus',
+            url: 'https://irctc1.p.rapidapi.com/api/v3/getPNRStatus',
             url:'api/Employee/GetPnrDetails',
             params: { pnrNumber: this.state.PNRNumber },
-            // headers:{'X-RapidAPI-Key':'08d558a2f2msh89912308fa1d13fp16e322jsn23960f0abdbe','X-RapidAPI-Host':'irctc1.p.rapidapi.com'}
+             headers:{'X-RapidAPI-Key':'08d558a2f2msh89912308fa1d13fp16e322jsn23960f0abdbe','X-RapidAPI-Host':'irctc1.p.rapidapi.com'}
 
         }
 
