@@ -189,7 +189,7 @@ const PNRComponent = () => {
                 <button type="submit" onClick={handleSubmit}>Search</button>
             </div>
 
-            {/* {IsErrorOccurred ? <h5 className="errorMessage">{ErrorMessage}</h5> : OnButtonClicked &&
+            { {IsErrorOccurred ? <h5 className="errorMessage">{ErrorMessage}</h5> : OnButtonClicked &&
                 <div>
                     <div>
                         <table className="table">
@@ -242,7 +242,7 @@ const PNRComponent = () => {
                         </table>
                     </div>
                 </div>
-            } */}
+            } }
         </div>
     );
 }
